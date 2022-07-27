@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    height: 100vh;
+    height: 97vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,6 +96,11 @@ button{
 button:hover{
     background-color: hsl(158, 36%, 17%);
     cursor: pointer;
+}
+
+.attribution{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
 }
 
 @media (max-width: 650px) {
