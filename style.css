@@ -75,6 +75,7 @@ main{
     color: hsl(228, 12%, 48%);
     font-size: 13px;
     margin-left: 22px;
+    text-decoration: line-through;
 }
 
 button{
