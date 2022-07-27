@@ -114,6 +114,16 @@ button:hover{
     color: hsl(158, 36%, 37%);
 }
 
+@media(max-height: 700px){
+    main{
+        align-items: flex-start;
+    }
+
+    .main-container{
+        margin-top: 100px;
+    }
+}
+
 @media (max-width: 650px) {
     main{
         align-items: center  
