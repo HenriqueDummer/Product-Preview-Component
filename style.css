@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Montserrat:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.main-container{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 450px;
+    width: 600px;
+    background-color: white;
+}
+
+.img-container img{
+    display: block;
+   width: 300px;
+}
+
+.content-container{
+    margin: 31px;
+}
+
+.content-container span{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+.content-container h1{
+    margin-top: 15px;
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 33px;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 23px;
+}
+
+.price{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.current{
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    
+    color: hsl(158, 36%, 37%);
+}
+
+.old{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    margin-left: 22px;
+}
+
+button{
+    margin-top: 23px;
+    height: 48px;
+    width: 237px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: hsl(158, 36%, 17%);
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    main{
+        align-items: flex-start;
+        
+    }
+    .main-container{
+        flex-direction: column;
+        width: 300px;
+        height: 534px;
+        margin-top: 139px;
+    }
+
+    .img-container img{
+        content: url("images/image-product-mobile.jpg");
+    }
+
+    .content-container{
+        margin: 18px 22px;
+    }
+
+    .content-container span{
+        font-size: 10.8px;
+    }
+
+    .content-container h1{
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+
+    .description{
+        margin-top: 11px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .price{
+        margin-top: 16px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+
+    .price .current{
+        font-size: 28px;
+    }
+
+    .price .old{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    button{
+        margin-top: 14px;
+        height: 42px;
+        width: 258px;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
